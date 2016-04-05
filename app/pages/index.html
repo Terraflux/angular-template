@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html ng-app="angularTemplate">
-<head lang="en">
-    <meta charset="UTF-8">
+<html ng-app="fits">
+	<head lang="en">
+	    <meta charset="UTF-8">
 
-    <title>Angular Template</title>
+	    <title>Forward IT Solutions</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/home.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-</head>
-<body>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    
+	    <link rel="stylesheet" href="/styles/style.css">
+	    <link rel="stylesheet" href="/styles/home.css">
+	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+	    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-	<nav class="navbar">
-		<div class="links-container">
-			<a ui-sref="contact" class="navbar-link">contact</a>
-		</div>
+	</head>
 
-	</nav>
+	<body>
 
-	<ui-view></ui-view>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-    <script src="/scripts/app.js"></script>
-    
-</body>
+		<nav class="navbar">
+			<a ui-sref="home" class="logo">
+				<img src="assets/images/logo.png" alt="Forward IT Solutions">
+			</a>
+			<div class="links-container">
+				<contact-prompt></contact-prompt>
+			</div>
+
+		</nav>
+
+		<ui-view></ui-view>
+	    
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+
+	    <script src="/scripts/app.js"></script>
+
+	    <script src="/scripts/controllers/HomeCtrl.js"></script>
+
+	    <script src="/scripts/directives/contactPrompt.js"></script>
+	    
+	</body>
 </html>

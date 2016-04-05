@@ -10,11 +10,13 @@
 		$stateProvider
 			.state('home', {
 				url: '/',
+				controller: 'HomeCtrl as home',
 				templateUrl: '/templates/home.html'
 			});
+			
 	}
 
 	angular
-		.module('angularTemplate', ['ui.router'])
+		.module('fits', ['ui.router'])
 		.config(config);
 })();
