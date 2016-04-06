@@ -21,21 +21,39 @@
 				<img src="assets/images/logo.png" alt="Forward IT Solutions">
 			</a>
 			<div class="links-container">
-				<contact-prompt></contact-prompt>
+				<a ng-click="toggleModal()" class="navbar-link">contact</a>
 			</div>
 
 		</nav>
 
 		<ui-view></ui-view>
+
+		<modal title="Contact Request" visible="showModal">
+			<form role="form">
+				<div class="form-group">
+					<label></label>
+					<input />
+				</div>
+				<div class="form-group">
+					<label></label>
+					<input />
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</modal>
 	    
 	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+	    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
 
 	    <script src="/scripts/app.js"></script>
 
 	    <script src="/scripts/controllers/HomeCtrl.js"></script>
 
-	    <script src="/scripts/directives/contactPrompt.js"></script>
+	    <script src="/scripts/directives/modal.js"></script>
 	    
 	</body>
 </html>
