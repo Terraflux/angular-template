@@ -1,10 +1,10 @@
 (function() {
-	function HomeCtrl($rootScope){
+	function HomeCtrl(){
 		this.heroTitle = "Pure IT";
 
-		$rootScope.showModal = false;
+		this.showModal = false;
 
-		$rootScope.toggleModal = function(){
+		this.toggleModal = function(){
 			$rootScope.showModal = !$rootScope.showModal;
 		};
 
@@ -12,5 +12,5 @@
 
 	angular
 		.module('fits')
-		.controller('HomeCtrl', ['$rootScope',HomeCtrl]);
+		.controller('HomeCtrl', HomeCtrl);
 })();

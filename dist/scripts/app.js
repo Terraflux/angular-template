@@ -17,6 +17,6 @@
 	}
 
 	angular
-		.module('fits', ['ui.router'])
+		.module('fits', ['ui.router', 'ngMaterial'])
 		.config(config);
 })();
