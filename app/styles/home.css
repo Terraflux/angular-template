@@ -4,7 +4,7 @@ body.home {
 
 .hero-content {
 	position: relative;
-	min-height: 600px;
+	min-height: 500px;
 	background-image: url(../assets/images/teamwork_high_res.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
