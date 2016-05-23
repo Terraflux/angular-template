@@ -10,7 +10,6 @@ html {
 }
 
 .page {
-	background-image: url(../assets/images/blur_bg_2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
@@ -18,6 +17,30 @@ html {
 	font-family: 'Open Sans';
 	color: white;
 	min-height: 100%;
+}
+
+.left-logo {
+	margin-left: 1em;
+}
+
+.client-portal {
+	float: right;
+}
+
+.main-nav {
+	background-color: gray !important;
+	border: 0.1em solid white;
+}
+
+.nav-link {
+	border-left: 1px solid !important;
+	border-right: 1px solid !important;
+	font-family: 'Catamaran', sans-serif !important;
+	font-weight: 800 !important;
+	letter-spacing: 2px !important;
+	padding-left: 2em !important;
+	padding-right: 2em !important;
+	margin: 0em !important;
 }
 
 .logo {

@@ -1,9 +1,7 @@
 (function () {
 	
 	function ModalCtrl($mdDialog, $mdMedia) {
-		this.status = '  ';
-		this.customFullscreen = $mdMedia('xs') || $mdMedia('sm');
-
+		
 		this.showContactPrompt = function($event) {
 			
 			var contactPrompt = $mdDialog.prompt()

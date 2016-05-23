@@ -9,21 +9,40 @@
 	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
 	    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.7/angular-material.css">
+	    <link href='https://fonts.googleapis.com/css?family=Catamaran:400,800' rel='stylesheet' type='text/css'>
 
 	</head>
 
 	<body>
 		<div class="page">
 
-			<md-toolbar class="md-hue-2">
+			<md-content layout-padding>
+				<img class="left-logo" src="assets/images/navbar_image.jpg">
+				<img class="client-portal" src="assets/images/client_portal.png" height="125">
+			</md-content>	
+
+			<md-toolbar class="main-nav">
 				<div class="md-toolbar-tools">
-					<md-button ui-sref="home">
-						<img src="assets/images/logo.png" alt="Forward IT Solutions" class="logo">
-					</md-button>
 					<span flex></span>
-					<md-button ng-controller="ModalCtrl as modal" ng-click="modal.showContactPrompt($event)">
+
+					<md-button class="nav-link" ui-sref="home">
+						Home
+					</md-button>
+
+					<md-button class="nav-link">
+						About Us
+					</md-button>
+					
+					
+					<md-button class="nav-link">
+						Our Solutions
+					</md-button>
+					
+					<md-button class="nav-link" ng-controller="ModalCtrl as modal" ng-click="modal.showContactPrompt($event)">
 						Contact
 					</md-button>
+
+					<span flex></span>
 				</div>
 			</md-toolbar>
 			
