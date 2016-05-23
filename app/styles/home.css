@@ -123,6 +123,38 @@ body.home {
 }
 
 .contact-bottom {
+	position: relative;
 	min-height: 15em;
 	background-color: #707270;
+	color: white;
+	padding: 2em;
+}
+
+.contact-box {
+	padding-bottom: 1em;
+}
+
+.contact-header {
+	font-family: 'Catamaran';
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: 3px;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+}
+
+.social-bar {
+	border-top: 2px solid white;
+	padding-top: 1em;
+	text-align: bottom;
+}
+
+.contact-content > * {
+	padding-left: 1em;
+	padding-top: 0.35em;
+}
+
+.email-input {
+	background-color: white;
+	max-height: 2em;
 }
