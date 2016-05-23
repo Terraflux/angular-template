@@ -87,3 +87,7 @@ html {
 .clearfix:after {
 	clear:both;
 }
+
+md-dialog-content {
+	padding: 1em;
+}
