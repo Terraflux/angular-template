@@ -72,9 +72,11 @@ body.home {
 }
 
 .point-title {
+	font-weight: 600;
 	font-size: 1rem;
 	font-family: 'NotJustGroovy', sans-serif;
 	padding: 1em;
+	text-transform: uppercase;
 	vertical-align: bottom;
 }
 
