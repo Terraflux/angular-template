@@ -52,7 +52,6 @@ body.home {
 .selling-points {
 	padding-top: 2em;
 	position: relative;
-	font-family: 'NotJustGroovy', sans-serif;
 }
 
 .point {
@@ -61,10 +60,11 @@ body.home {
 	vertical-align: bottom;
 	opacity: 1;
 	color: #21415e;
+	font-family: 'NotJustGroovy', sans-serif;
 }
 
 .waiter {
-	height: 5%;
+	height: 50%;
 }
 
 .point-title {
@@ -82,6 +82,7 @@ body.home {
 .md-button.solutions-button {
 	font-size: 1.5em !important;
 	font-family: 'NotJustGroovy', sans-serif;
+	margin-top: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 0.25em;
