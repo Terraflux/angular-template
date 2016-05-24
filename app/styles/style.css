@@ -1,3 +1,7 @@
+body {
+	padding: 5em;
+}
+
 @font-face {
 	font-family: NotJustGroovy;
 	src: url(../assets/fonts/NotJustGroovy.ttf);
@@ -25,11 +29,9 @@ html {
 }
 
 .left-logo {
-	margin-left: 1em;
 }
 
 .client-portal {
-	float: right;
 }
 
 .main-nav {
