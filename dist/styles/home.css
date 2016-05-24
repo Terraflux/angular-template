@@ -63,6 +63,10 @@ body.home {
 	font-family: 'NotJustGroovy', sans-serif;
 }
 
+.point > img {
+	vertical-align: middle;
+}
+
 .waiter {
 	height: 50%;
 }
@@ -172,7 +176,6 @@ body.home {
 	background-color: white;
 	max-height: 2em;
 }
-
 
 .md-button.newsletter-button {
 	font-family: 'NotJustGroovy', sans-serif;
