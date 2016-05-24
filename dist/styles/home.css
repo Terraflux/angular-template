@@ -15,14 +15,14 @@ body.home {
 
 .main-logo {
 	margin: 3em;
-	height: 60%;
+	height: 50%;
 }
 
 .hero-title {
 	position: relative;
 	max-height: 3.5rem;
 	font-size: 3rem;
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'NotJustGroovy', sans-serif;
 	font-weight: 800;
 	letter-spacing: 2px;
 	color: white;
@@ -35,11 +35,15 @@ body.home {
 .hero-text {
 	color: white;
 	width: 25em;
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'NotJustGroovy', sans-serif;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .hollow-text {
-	color: black;
+	color: white;
 	-webkit-text-fill-color: transparent;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
@@ -47,7 +51,7 @@ body.home {
 
 .selling-points {
 	position: relative;
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'NotJustGroovy', sans-serif;
 }
 
 .point {
@@ -59,11 +63,12 @@ body.home {
 }
 
 .waiter {
-	height: 40%;
+	height: 5%;
 }
 
-.point .point-title {
+.point-title {
 	font-size: 1rem;
+	vertical-align: bottom;
 }
 
 
@@ -73,14 +78,14 @@ body.home {
 
 .md-button.solutions-button {
 	font-size: 1.5em !important;
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'NotJustGroovy', sans-serif;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	border: 2px solid #8DA4C6 !important;
-	font-weight: 200;
-	letter-spacing: 3px;
+	font-weight: 400;
+	letter-spacing: 1px;
 	border-radius: 0;
 }
 
@@ -100,7 +105,7 @@ body.home {
 	position: relative;
 	max-height: 3.5rem;
 	font-size: 3rem;
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'NotJustGroovy', sans-serif;
 	font-weight: 600;
 	letter-spacing: 1px;
 	color: white;
@@ -114,9 +119,9 @@ body.home {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: 1.5rem;
-	font-family: 'Catamaran', sans-serif;
+	font-family: 'NotJustGroovy', sans-serif;
 	font-weight: 800;
-	letter-spacing: 5px;
+	letter-spacing: 1px;
 	color: #1E4788;
 	background-color: #cccccc;
 	opacity: 0.85;
@@ -135,17 +140,16 @@ body.home {
 }
 
 .contact-header {
-	font-family: 'Catamaran';
+	font-family: 'NotJustGroovy', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 800;
-	letter-spacing: 3px;
 	margin-bottom: 0.5em;
 	margin-left: 0.5em;
 }
 
 .social-bar {
 	border-top: 2px solid white;
-	padding-top: 1em;
+	padding: 1em;
 	text-align: bottom;
 }
 
@@ -154,7 +158,23 @@ body.home {
 	padding-top: 0.35em;
 }
 
+.contact-line {
+	font-family: 'NotJustGroovy', sans-serif;
+}
+
+
 .email-input {
+	font-family: 'NotJustGroovy', sans-serif;
 	background-color: white;
 	max-height: 2em;
+}
+
+
+.md-button.newsletter-button {
+	font-family: 'NotJustGroovy', sans-serif;
+	background-color: rgb(46, 85, 150);
+}
+
+.llc-line {
+	font-family: 'NotJustGroovy', sans-serif;
 }

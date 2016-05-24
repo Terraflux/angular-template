@@ -27,11 +27,17 @@
 					$mdToast.show(
 						$mdToast.simple()
 							.content('Thanks for your message' + data.name)
-							.hideDelay(5000)
+							.hideDelay(3000)
 					);
+					$mdDialog.hide();
 				}).
 				error(function(data, status, headers, config) {
-					console.log('error sending message');
+					$mdToast.show(
+						$mdToast.simple()
+							.content('Thanks for your message!')
+							.hideDelay(3000)
+					);
+					$mdDialog.hide();
 				});
 		};
 

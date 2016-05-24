@@ -6,41 +6,41 @@
 	<div layout="column">
 		<div class="hero-title">A SOLUTION</div>
 		<div class="hero-title title-2">THAT F<span class="hollow-text">IT</span>S</div>
-		<div class="hero-text">FITS believes that a proactive approach to IT is the best way to maintain effective and reliable business operations, while simultaneously saving on IT spending. Everyones knows how costly downtime can be for any business - instead of reacting, FITS works to prevent your problems before they harm your business.</div>
+		<div class="hero-text"><span class="bold">FITS</span> believes that a proactive approach to IT is the best way to maintain effective and reliable business operations, while simultaneously saving on IT spending. Everyones knows how costly downtime can be for any business - instead of reacting, <span class="bold">FITS</span> works to prevent your problems <span class="bold">before</span> they harm your business.</div>
 	</div>
 	<span flex></span>
 </md-content>
 
-<md-content class="selling-points" layout="row" layout-align="center center">
+<md-content class="selling-points" layout="row" layout-align="center top">
 
 	<span flex></span>
 
-	<section class="point">
+	<div class="point" layout="column" layout-align="end center">
 		<img class="waiter" src="assets/images/icon_1.png">
 		<span flex></span>
 		<p class="point-title">A-La-Carte Solutions For Flexible IT</p>
-	</section>
-	<section class="point">
+	</div>
+	<div class="point" layout="column" layout-align="end center">
 		<img src="assets/images/icon_2.png">
 		<span flex></span>
-		<p class="point-title">On-Site Computer Service</p>
-	</section>
-	<section class="point">
+		<div class="point-title">On-Site Computer Service</div>
+	</div>
+	<div class="point" layout="column" layout-align="end center">
 		<img src="assets/images/icon_3.png">
 		<span flex></span>
 		<p class="point-title">Managed Anti-Virus and Anti-Spam</p>
-	</section>
-	<section class="point">
+	</div>
+	<div class="point" layout="column" layout-align="end center">
 		<img src="assets/images/icon_4.png">
 		<span flex></span>
 		<p class="point-title">Backup and Disaster Recovery</p>
-	</section>
+	</div>
 
 	<span flex></span>
 </md-content>
 
 <md-content class="solutions-content" layout="row" layout-align="center center">
-	<md-button class="solutions-button"><span >View Solutions</span></md-button>
+	<md-button class="solutions-button"><span>View Solutions</span></md-button>
 </md-content>
 
 <md-content class="footer-content" layout="row" layout-align="start center">
@@ -49,28 +49,28 @@
 		<div class="footer-title">ASSESSMENT</div>
 	</div>
 	<span flex></span>
-	<md-button class="footer-button">Contact Us</md-button>
+	<md-button ng-controller="ModalCtrl as modal" ng-click="modal.showContactPrompt($event)" class="footer-button">Contact Us</md-button>
 </md-content>
 
 <md-content class="contact-bottom">
 	<div class="contact-box" layout="row">
 		<div>
 			<div class="contact-header">CONTACT US</div>
-			<div class="contact-content" layout="row">
+			<div class="contact-content" layout="row" layout-align="start center">
 				<img src="assets/images/footer_icon_1.png">
-				<div>
+				<div class="contact-line">
 					786.534.7088
 				</div>
 			</div>
-			<div class="contact-content" layout="row">
+			<div class="contact-content" layout="row" layout-align="start center">
 				<img src="assets/images/footer_icon_2.png">
-				<div>
+				<div class="contact-line">
 					support@forwarditsolutions.net
 				</div>
 			</div>
-			<div class="contact-content" layout="row">
+			<div class="contact-content" layout="row" layout-align="start center">
 				<img src="assets/images/footer_icon_3.png">
-				<div>
+				<div class="contact-line">
 					forwarditsolutions.net
 				</div>
 			</div>
@@ -83,12 +83,12 @@
 					<label>Enter Your Email</label>
 					<input ng-model="user.email">
 				</md-input-container>
-				<md-button>Submit</md-button>
+				<md-button ng-controller="ModalCtrl as modal" ng-click="modal.pushMessage()" class="newsletter-button">Submit</md-button>
 			</div>
 		</div> 
 	</div>
 	<div class="social-bar" layout="row">
-		<div>&copy; 2016 Forward IT Solutions, Inc. All Rights Reserved.</div>
+		<div class="llc-line">&copy; 2016 Forward IT Solutions, LLC All Rights Reserved.</div>
 		<span flex></span>
 		<div class="social-buttons">
 			<img src="assets/images/footer_icon_fb.png">
