@@ -50,14 +50,15 @@ body.home {
 }
 
 .selling-points {
+	padding-top: 2em;
 	position: relative;
 	font-family: 'NotJustGroovy', sans-serif;
 }
 
 .point {
 	position: relative;
-	padding: 2rem;
 	text-align: center;
+	vertical-align: bottom;
 	opacity: 1;
 	color: #21415e;
 }
@@ -68,6 +69,8 @@ body.home {
 
 .point-title {
 	font-size: 1rem;
+	font-family: 'NotJustGroovy', sans-serif;
+	padding: 1em;
 	vertical-align: bottom;
 }
 
