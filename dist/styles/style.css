@@ -3,8 +3,8 @@ body {
 }
 
 @font-face {
-	font-family: NotJustGroovy;
-	src: url(../assets/fonts/NotJustGroovy.ttf);
+	font-family: Helvetica;
+	src: url(../assets/fonts/Helvetica.ttf);
 }
 
 *, *:before, *:after {
@@ -23,7 +23,7 @@ html {
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
-	font-family: 'NotJustGroovy';
+	font-family: 'Helvetica';
 	color: white;
 	min-height: 100%;
 }
@@ -43,7 +43,7 @@ html {
 	border-left: 1px solid !important;
 	border-right: 1px solid !important;
 	border-radius: 0px !important;
-	font-family: 'NotJustGroovy', sans-serif !important;
+	font-family: 'Helvetica', sans-serif !important;
 	font-weight: 400 !important;
 	letter-spacing: 2px !important;
 	padding-left: 2em !important;

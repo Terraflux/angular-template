@@ -1,11 +1,11 @@
 body.home {
-	background-color: #000080;
+	background-color: #cccccc;
 }
 
 .hero-content {
 	position: relative;
 	min-height: 30em;
-	background-image: url(../assets/images/main_bg_1.png);
+	background-image: url(../assets/images/blur-bg-1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -22,7 +22,7 @@ body.home {
 	position: relative;
 	max-height: 3.5rem;
 	font-size: 3rem;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 800;
 	letter-spacing: 2px;
 	color: white;
@@ -35,7 +35,7 @@ body.home {
 .hero-text {
 	color: white;
 	width: 25em;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 
 .bold {
@@ -60,7 +60,7 @@ body.home {
 	vertical-align: bottom;
 	opacity: 1;
 	color: #21415e;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 
 .point > img {
@@ -74,7 +74,7 @@ body.home {
 .point-title {
 	font-weight: 600;
 	font-size: 1rem;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	padding: 1em;
 	text-transform: uppercase;
 	vertical-align: bottom;
@@ -87,7 +87,7 @@ body.home {
 
 .md-button.solutions-button {
 	font-size: 1.5em !important;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	margin-top: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
@@ -115,7 +115,7 @@ body.home {
 	position: relative;
 	max-height: 3.5rem;
 	font-size: 3rem;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 600;
 	letter-spacing: 1px;
 	color: white;
@@ -129,7 +129,7 @@ body.home {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: 1.5rem;
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 800;
 	letter-spacing: 1px;
 	color: #1E4788;
@@ -150,7 +150,7 @@ body.home {
 }
 
 .contact-header {
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 800;
 	margin-bottom: 0.5em;
@@ -169,21 +169,21 @@ body.home {
 }
 
 .contact-line {
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 
 
 .email-input {
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	background-color: white;
 	max-height: 2em;
 }
 
 .md-button.newsletter-button {
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	background-color: rgb(46, 85, 150);
 }
 
 .llc-line {
-	font-family: 'NotJustGroovy', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }

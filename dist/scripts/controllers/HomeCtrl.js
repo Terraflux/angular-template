@@ -1,10 +1,9 @@
 (function() {
 	function HomeCtrl(){
-		
 
 	};
 
 	angular
-		.module('fits')
+		.module('wvum')
 		.controller('HomeCtrl', HomeCtrl);
 })();
