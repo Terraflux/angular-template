@@ -13,10 +13,10 @@
 				controller: 'HomeCtrl as home',
 				templateUrl: '/templates/home.html'
 			});
-			
+
 	}
 
 	angular
-		.module('fits', ['ui.router', 'ngMaterial'])
+		.module('wvum', ['ui.router', 'ngMaterial'])
 		.config(config);
 })();
