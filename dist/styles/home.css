@@ -13,11 +13,6 @@ body.home {
 	overflow: hidden;
 }
 
-.main-logo {
-	margin: 3em;
-	height: 50%;
-}
-
 .hero-title {
 	position: relative;
 	max-height: 3.5rem;
@@ -28,125 +23,11 @@ body.home {
 	color: white;
 }
 
-.title-2 {
-	margin-bottom: 1rem;
-}
-
-.hero-text {
-	color: white;
-	width: 25em;
-	font-family: 'Helvetica', sans-serif;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.hollow-text {
-	color: white;
-	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: white;
-}
-
-.selling-points {
-	padding-top: 2em;
+.footer {
 	position: relative;
-}
-
-.point {
-	position: relative;
-	text-align: center;
-	vertical-align: bottom;
-	opacity: 1;
-	color: #21415e;
-	font-family: 'Helvetica', sans-serif;
-}
-
-.point > img {
-	vertical-align: middle;
-}
-
-.waiter {
-	height: 50%;
-}
-
-.point-title {
-	font-weight: 600;
-	font-size: 1rem;
-	font-family: 'Helvetica', sans-serif;
-	padding: 1em;
-	text-transform: uppercase;
-	vertical-align: bottom;
-}
-
-
-.solutions-content {
-	margin-bottom: 3em;
-}
-
-.md-button.solutions-button {
-	font-size: 1.5em !important;
-	font-family: 'Helvetica', sans-serif;
-	margin-top: 1em;
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: 0.25em;
-	padding-bottom: 0.25em;
-	border: 2px solid #8DA4C6 !important;
-	font-weight: 400;
-	letter-spacing: 1px;
-	border-radius: 0;
-}
-
-
-.footer-content {
-	position: relative;
-	min-height: 20em;
-	background-image: url(../assets/images/footer_bg_1.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	overflow: hidden;
-}
-
-.footer-title {
-	text-align: justify;
-	position: relative;
-	max-height: 3.5rem;
-	font-size: 3rem;
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 600;
-	letter-spacing: 1px;
-	color: white;
-	margin-left: 3rem;
-}
-
-.md-button.footer-button {
-	margin-right: 2em;
-	padding-left: 2.5em;
-	padding-right: 2.5em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	font-size: 1.5rem;
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 800;
-	letter-spacing: 1px;
-	color: #1E4788;
-	background-color: #cccccc;
-	opacity: 0.85;
-}
-
-.contact-bottom {
-	position: relative;
-	min-height: 15em;
-	background-color: #707270;
-	color: white;
+	min-height: 10em;
+	background-color: gray;	color: white;
 	padding: 2em;
-}
-
-.contact-box {
-	padding-bottom: 1em;
 }
 
 .contact-header {
@@ -155,35 +36,4 @@ body.home {
 	font-weight: 800;
 	margin-bottom: 0.5em;
 	margin-left: 0.5em;
-}
-
-.social-bar {
-	border-top: 2px solid white;
-	padding: 1em;
-	text-align: bottom;
-}
-
-.contact-content > * {
-	padding-left: 1em;
-	padding-top: 0.35em;
-}
-
-.contact-line {
-	font-family: 'Helvetica', sans-serif;
-}
-
-
-.email-input {
-	font-family: 'Helvetica', sans-serif;
-	background-color: white;
-	max-height: 2em;
-}
-
-.md-button.newsletter-button {
-	font-family: 'Helvetica', sans-serif;
-	background-color: rgb(46, 85, 150);
-}
-
-.llc-line {
-	font-family: 'Helvetica', sans-serif;
 }
