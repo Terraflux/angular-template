@@ -1,52 +1,46 @@
 <!DOCTYPE html>
+<!-- Welcome to the WVUM Website Index Page! -->
+<!-- Please Refer to the README if you are unfamiliar with Angular -->
 <html ng-app="wvum">
 	<head>
-
-	    <title>WVUM</title>
-
-	    <link rel="stylesheet" href="/styles/style.css">
+	    <title>WVUM 90.5FM</title>
+			<!-- Local Stylesheets -->
+	    <link rel="stylesheet" href="/styles/media.css">
+			<link rel="stylesheet" href="/styles/navbar.css">
 	    <link rel="stylesheet" href="/styles/home.css">
+			<!-- Remote Stylesheets -->
 	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
 	    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.7/angular-material.css">
 	    <link href='https://fonts.googleapis.com/css?family=Catamaran:400,800' rel='stylesheet' type='text/css'>
-
 	</head>
 
 	<body>
-		<div class="page">
-			<md-content layout="row" layout-align="center center">
+		<md-toolbar class="main-nav">
+			<div class="md-toolbar-tools">
 				<span flex></span>
-			</md-content>
 
-			<md-toolbar class="main-nav">
-				<div class="md-toolbar-tools">
+				<md-button class="nav-link" ui-sref="home">
+					home
+				</md-button>
 
-					<span flex></span>
+				<md-button class="nav-link">
+					about us
+				</md-button>
 
-					<md-button class="nav-link" ui-sref="home">
-						home
-					</md-button>
+				<md-button class="nav-link" ui-sref="profiles">
+					dj profiles
+				</md-button>
 
-					<md-button class="nav-link">
-						about us
-					</md-button>
+				<md-button class="nav-link" ui-sref="blog">
+					blog
+				</md-button>
 
-					<md-button class="nav-link">
-						dj profiles
-					</md-button>
+				<span flex></span>
+			</div>
+		</md-toolbar>
 
-					<md-button class="nav-link">
-						blog
-					</md-button>
-
-					<span flex></span>
-				</div>
-			</md-toolbar>
-
-			<ui-view></ui-view>
-
-		</div>
+		<ui-view></ui-view>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
@@ -55,8 +49,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.7/angular-material.js"></script>
 
 	  <script src="/scripts/app.js"></script>
-
 	  <script src="/scripts/controllers/HomeCtrl.js"></script>
+		<script src="/scripts/controllers/ProfilesCtrl.js"></script>
+		<script src="/scripts/controllers/BlogCtrl.js"></script>
 
 	</body>
 </html>

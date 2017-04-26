@@ -1,8 +1,4 @@
-body.home {
-	background-color: #cccccc;
-}
-
-.hero-content {
+.hero-box {
 	position: relative;
 	min-height: 30em;
 	background-image: url(../assets/images/blur-bg-1.jpg);
@@ -23,17 +19,14 @@ body.home {
 	color: white;
 }
 
+.mid-box{
+	min-height: 10em;
+}
+
 .footer {
 	position: relative;
 	min-height: 10em;
-	background-color: gray;	color: white;
+	background-color: gray !important;
+	color: white;
 	padding: 2em;
-}
-
-.contact-header {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 1.5rem;
-	font-weight: 800;
-	margin-bottom: 0.5em;
-	margin-left: 0.5em;
 }
