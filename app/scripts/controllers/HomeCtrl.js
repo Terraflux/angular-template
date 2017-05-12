@@ -4,6 +4,6 @@
 	};
 
 	angular
-		.module('wvum')
+		.module('terra')
 		.controller('HomeCtrl', HomeCtrl);
 })();

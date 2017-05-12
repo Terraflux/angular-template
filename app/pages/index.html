@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!-- Welcome to the WVUM Website Index Page! -->
-<!-- Please Refer to the README if you are unfamiliar with Angular -->
-<html ng-app="wvum">
+<html ng-app="terra">
 	<head>
-	    <title>WVUM 90.5FM</title>
+	    <title>Pedro Urbina</title>
 			<!-- Local Stylesheets -->
 	    <link rel="stylesheet" href="/styles/media.css">
 			<link rel="stylesheet" href="/styles/navbar.css">
 	    <link rel="stylesheet" href="/styles/home.css">
+			<!-- Load c3.css -->
+		  <link href="/styles/c3.min.css" rel="stylesheet" type="text/css">
 			<!-- Remote Stylesheets -->
 	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
 	    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -24,16 +24,8 @@
 					home
 				</md-button>
 
-				<md-button class="nav-link">
-					about us
-				</md-button>
-
-				<md-button class="nav-link" ui-sref="profiles">
-					dj profiles
-				</md-button>
-
-				<md-button class="nav-link" ui-sref="blog">
-					blog
+				<md-button class="nav-link" ui-sref="polodex">
+					polodex
 				</md-button>
 
 				<span flex></span>
@@ -41,6 +33,13 @@
 		</md-toolbar>
 
 		<ui-view></ui-view>
+
+
+		<md-content class="footer">
+			<div layout="row">
+
+			</div>
+		</md-content>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
@@ -50,8 +49,17 @@
 
 	  <script src="/scripts/app.js"></script>
 	  <script src="/scripts/controllers/HomeCtrl.js"></script>
-		<script src="/scripts/controllers/ProfilesCtrl.js"></script>
-		<script src="/scripts/controllers/BlogCtrl.js"></script>
+		<!-- Load d3.js and c3.js -->
+		<script src="/scripts/d3.v3.min.js" charset="utf-8"></script>
+		<script src="/scripts/c3.min.js"></script>
 
+		<script>
+	    var chart = c3.generate({
+	        bindto: '#chart',
+	        data: {
+						url: '/assets/data/data.csv'
+	        }
+	    });
+	  </script>
 	</body>
 </html>
