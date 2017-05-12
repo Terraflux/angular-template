@@ -1,12 +1,11 @@
 (function() {
 
-	function config($stateProvider, $locationProvider) {
+	function config($locationProvider, $stateProvider) {
 		$locationProvider
 			.html5Mode({
 				enabled: true,
 				requireBase: false
 			});
-
 		$stateProvider
 			.state('home', {
 				url: '/',
@@ -14,8 +13,8 @@
 				templateUrl: '/templates/home.html'
 			})
 			.state('polodex', {
-				url: '/',
-				controller: 'HomeCtrl as home',
+				url: '/polodex',
+				controller: 'PoloCtrl as polo',
 				templateUrl: '/templates/polodex.html'
 			});
 	}
